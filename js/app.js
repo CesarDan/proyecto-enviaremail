@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
      limpiarAlerta(e.target.parentElement);
     }
    
-    function mostrarAlerta(mensaje, referencia){
+
+    function mostrarAlerta(mensaje,referencia){
+     limpiarAlerta(referencia);
+
+
 
       limpiarAlerta(referencia)
       //Generar alerta en html
