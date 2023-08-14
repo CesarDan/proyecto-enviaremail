@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
      limpiarAlerta(e.target.parentElement);
     }
    
-    function mostrarAlerta(){
+    function mostrarAlerta(mensaje,referencia){
      limpiarAlerta(referencia);
 
 
